@@ -1,0 +1,23 @@
+@media(max-width: 425px){
+    .navDesktop{
+    	display: none;
+    }
+}
+.h3{
+	font-size: 
+}
+
+@media(min-width: 426px){
+	.harbumger{
+		display:none;
+
+	}
+	.overlay h3{
+		font-size:;
+	}
+	.column{
+
+		flex: 0  0 100%;
+	}
+}
+}
