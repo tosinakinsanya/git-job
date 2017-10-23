@@ -1,0 +1,134 @@
+0*{
+	box-sizing: border-box;
+}
+
+
+body{
+
+		background: #EEE;
+		/*css reset*/
+		padding: 0;
+		margin: 0;
+}
+nav{
+	background: #FFF
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	list-style-type: none;
+	justify-content: space-between;
+}
+
+.navlist{
+	padding: 15px;
+}
+
+.navlist a{
+	text-decoration: none; 
+}
+
+.navitems a{
+	padding: 10px;
+}
+.banner{
+	height: 300px
+	background-image: url('../../assets/img/gg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+
+}
+
+.overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.85);
+	color: #FFF;
+   display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.overlay h3{
+	font-size: 35px;
+	letter-spacing: 2px;
+	font-family: Arial, sans-serif;
+}
+
+.container{
+	width:  80%;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.column{
+	flex:  0 0 calc(100% /3);
+	padding: 15px;
+}
+
+.box{
+	background: #FFF;
+	height: 250px;
+	width: 100;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.circle{
+	height: 120px;
+	width: 120px;
+	border-radius: 100%;
+	border: 2px solid #;
+	background: #EEE;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font size: 20px;
+}
+/*
+.footer{
+	background: #FFF;
+	padding: 20px 0;
+
+}
+.footer p{
+	margin: 0;
+	text-align: center;
+}*/
+
+
+
+.footer{
+	display: flex;
+	justify-content: center;
+	display: flex;
+	padding: 20px 0;
+
+}
+
+.footer p{
+	margin: o;
+	color: grey;
+}
+
+
+	
+}
+
+
+
+
+
+
+
