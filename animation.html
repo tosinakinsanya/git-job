@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>animation</title>
+	<style type="text/css">
+	    body{
+	    	margin: 0;
+	    	height: 100vh;
+	    	display: flex;
+	    	justify-content: center;
+	    	align-items: center;
+	    }
+	div{
+		width: 200px;
+		height: 200px;
+		background: #BADA55;
+		border-radius: 10px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+		transition: all 1s cubic-bezier(0.42, 0, 0.15, 0.56);
+	}
+	ball:hover{
+		background: #FA0;
+		border-radius: 100%;
+		color: red;
+		letter-spacing: 5px;
+		transform: scale(1.1);
+
+	}
+	.circles{
+		height: 100px;
+		width: 100px;
+		border-radius: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 15px;
+		background: #eee;
+		
+	}
+	.circles:nth-child(1){
+		transition: all 1s ease;
+	}
+	.circles:nth-child(2){
+		transition: all is ease-in-out;
+	}
+	.circles:nth-child(3){
+		transition: all is linear;
+	}
+	.circles:nth-child(4){
+		transition: all is cubic-bezier(0.42, 0, 0.15, )
+
+	}
+	.circles_parent:hover .circles{
+		transform: translateX(100vw);
+	}
+		
+	</style>
+	
+	
+	
+	
+</head>
+<body>
+
+	<div class="ball">
+		BALL
+	</div>
+<div class="circles_parent">
+	<div class="circles">1</div>
+	<div class="circles">2</div>
+	<div class="circles">3</div>
+	<div class="circles">4</div>
+</div>
+
+</body>
+</html>

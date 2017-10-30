@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<meta charset="utf-8">
+		<title>animae</title>
+		<style type="text/css">
+		   body{
+		   	margin: 0
+		    	height: 100vh;
+		    	background: #000;
+		   }
+		   .ball,.family{
+		    	width: 120px;
+		    	height: 120px;
+		    	border-radius: 100%;
+		    	background: aliceblue;
+		    	display: flex;
+		    	justify-content: center;
+		    	align-items: center;
+		    	
+		    }
+		    .ball{
+		    	animation: fall 1.5s ease alternate-reverse infinite
+		    }
+		    
+
+
+		    
+			/*.ball{
+		    	animation: fall 2.0s ease alternate-reverse infinite;
+		    }*/
+		    .family{
+		    	animation: cloud 1.5s ease alternate-reverse infinite;
+		    }
+		    
+		    	
+		    
+		    @keyframes fall{
+		    	0%{
+		    		transform: translateY(0);
+		    		background: rgb(0,0,0);
+		    	}
+		    
+		    	100%{
+		    	    transform:  translateY(215px);
+		    }
+		    @keyframes cloud{
+		    	0%{
+		    		transform: translateX(0px);
+		    	}
+		    	25%{
+		    		transform: translateX(100px);
+
+		    	}
+		    	50%{
+		    		transform: translateX(200px);
+		    	}
+		    	75%{
+		    		transform: translateX(300px);
+		    	}
+		    	100%{
+		    		transform: translateX(400px);
+		    	}
+		    }
+		    
+		    
+		   
+		    	
+		    
+		  
+		  
+
+		    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</style>
+		
+
+
+	</head>
+	<body>
+		<div class="ball">
+			tobi
+		</div>
+		<div class="family">
+			toba
+			
+		</div>
+		
+			
+		
+
+
+	</body>
+</html>

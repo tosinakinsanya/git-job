@@ -76,8 +76,8 @@ ul{
 
 [class*='col-']{
 	float: left; 
-	padding-left: 15px;
-	padding-right: 15px;
+	padding: 15px;
+
 }
 
 
@@ -105,4 +105,15 @@ ul{
 	justify-content: center;
 	align-items: center;
 	font size: 20px;
+	margin: 0 auto;
+	line-height: 16px;
+	padding-top: 52px;
+	padding-bottom: 52px;
+}
+
+
+
+.footer{
+	margin: 0;
+	
 }
